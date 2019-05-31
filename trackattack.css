@@ -1,0 +1,124 @@
+body,html{
+ background-image:url("mb_texture.jpg");
+ 
+    height: 100%; 
+	background-position: center;
+    margin:0;
+}
+
+#div1{
+	background-color:white;
+     margin-left:230px;
+	 margin-right:230px;
+	 display:block;
+	 padding-bottom:20px;
+}
+
+#logo_techno{
+	margin-left:100px;
+	 margin-right:100px;
+	
+	
+}
+
+#div2{
+	 
+	 background-color: #900;
+ 
+    height: 1000px; 
+    margin-top:0px;
+    
+	margin-left:230px;
+	 margin-right:230px;
+	 
+}
+
+
+#div2_1{
+	width:865px; 
+	height:950px; 
+	margin-top:0px;
+	background-color:#fff;
+	margin-left:10px;
+}
+.para1{
+	margin-top:10px;
+	color:#900;
+	padding-top:20px;
+    font-size:35px;
+     margin-left:320px;
+	 font-weight:bold;
+	 font-family:Helvetica;
+	 text-shadow:3px 3px 5px orange,6px 6px 10px blue;
+	 
+	}
+
+
+
+
+#nav{
+	background-color:darkblue;
+	height:35px;
+	font-size:25px;
+	font-weight:bold;
+	font:tahoma;
+	color:white;
+
+}
+
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	
+}
+#nav ul li a{
+	text-decoration:none;
+	padding:8px;
+	margin:2px;
+	
+}
+#nav ul li{
+	display:inline-block;
+	background-color:darkblue;
+	
+}
+
+#nav ul li  a:hover{
+	background-color:grey;
+    color:white;
+	}
+#nav ul ul{
+	position:absolute;
+	display:none;
+	
+}
+
+
+#nav ul li a:visited{
+	display:block;
+	padding:10px;
+	color:red;
+	text-decoration:none;
+}
+
+#nav ul li a:hover{
+	color:white;
+}
+
+#nav ul li:hover   ul{
+	display:block;
+}
+
+#nav ul ul li{
+	display:block;
+}
+
+
+#nav ul.navlist{
+margin-left:200px;
+margin-right:150px;
+
+}
+
+

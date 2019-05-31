@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel = "stylesheet"
+   type = "text/css"
+   href = "mainall.css" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+  
+  $(window).on('scroll',function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 280) {
+      $('#nav').addClass('navbar-fixed');
+    }
+    if ($(window).scrollTop() < 281) {
+      $('#nav').removeClass('navbar-fixed');
+    }
+  });
+});
+  </script>
+  
+  
+</head>
+<body>
+<div id="div1">
+ <img  src="logo_ribbon.png" id="logo_mit">
+<img src="tb_logo.jpg" id="logo_techno">
+</div>
+
+<div id="div2">
+<div id="nav">
+    
+    <ul class="navlist">
+    <li ><a href="index_main.html">Home</a></li>
+    <li><a href="events.html">Events</a>
+    	<ul>
+        	<li><a href="trackattack.html">Track Attack</a></li>
+   			<li><a href="bridgemaking.html">Bridge Making</a></li>
+            <li><a href="langaming.html">Lan War</a></li>
+            <li><a href="innovation.html">Innovation</a></li>
+            <li><a href="picxpress.html">PicXpress</a></li>
+            <li><a href="admad.html">Ad Mad</a></li>
+            <li><a href="poster.html">Big Picture</a></li>
+            <li><a href="aptitude.html">Mind Creep</a></li>
+            <li><a href="treasurehunt.html">Treasure Hunt</a></li> 	
+    	</ul>
+    
+    </li>
+    <li><a href="schedule.html">Schedule</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="nav-right"></div>
+    <div class="nav-right"></div>
+    </div>
+
+<div id="div2_1" >
+<marquee><p>Welcome to Technoblitz 2013 official site!</p></marquee>
+</div>
+
+<div id="div2_2" >
+
+<span id="span1" >A bit about Technoblitz:</span><br/><br/>
+
+<p class="para1">TECHNOBLITZ is an event organized by Department of Engineering Sciences and Humanities of Marathwada Institute of Technology, Aurangabad. This event is specifically organized for the first year students of all the engineering colleges in Aurangabad city. The purpose behind organizing this event is to provide a platform for the students of first year to showcase their talent and expertise.
+
+</p>
+
+
+</div>
+<div id="sidebar">
+    <p class="para2" >Venue: MIT, Aurangabad</p>
+    <p class="para3" >2nd and 3rd March 2013</p>
+    <p class="para4" >All events are open for first year engineering students. Those who are intersted to participate contact respective organizers. All the events will be conducted as per the schedule.</p>
+    </div>
+<div id="innovate" style="background-color:#FFF; width:870px; height:560px; margin-top:20px; margin-left:10px">
+    	<p style=" color:#F30; font-size:30px; margin:10px 10px 10px 235px; font-family: 'Merienda', cursive;">...Come, innovate yourself!!!</p>
+        <p style="margin:10px 10px 10px 235px; font-size:20px; font-family: 'Courgette', cursive;">Yeah right! What could be a better tagline than this? All we give you is the opportunity to innovate yourself. Sounds great as all we engineers are great at innovation. We have arranged events like Robo Race, Bridge making, presentation, aptitude test to unleash your technical innovations.</p>
+        <p style="margin:0px 10px 0px 235px; font-size:20px; font-family: 'Courgette', cursive;">But are enginners innovative only in technical fields? No, not at all. So we have events like Ad making, photography and poster making to showcase your artistic abilities. And what more? there is a Treasure Hunt compitetion filled with fun!!! And last but not the least a Lan Party for computer gamers! Test all your gaming skills in head to head matches with other gamers.</p>
+        <p style="margin:0px 10px 0px 235px; font-size:20px; font-family: 'Courgette', cursive;">So what technoblitz is all about? Lots of innovation, lots of fun and of cource a lot of prizes to be won. So...come, innovate yourself!!! :)</p>
+    </div>
+</div>
+<div id="div3">
+<div id="div4">
+<img class="img1" src="Capture.JPG"/>
+</div>
+</div>
+
+
+</body>
+</html> 
